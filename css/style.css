@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+}
+
+/* COMMON */
+.container {
+  width: 1024px;
+  margin: auto;
+}
+/* FINE COMMON */
+
+/* inizio header */
+
+header {
+  background-image: url("../img/pattern.png");
+  background-size: 350px;
+  background-color: aqua;
+}
+
+.logo {
+  height: 50px;
+  margin: 50px 0 10px 0;
+}
+
+/* fine header */
+
+/* inizio main */
+
+main {
+  margin: 20px 0 40px 0;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 38px;
+}
+
+.author {
+  color: grey;
+}
+
+.author span {
+  color: blue;
+}
+.date {
+  color: grey;
+  font-size: 13px;
+}
+
+.immagini {
+  margin-top: 20px;
+}
+
+.immagini p {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* inizio body */
+
+.corpo-articolo {
+  margin-top: 20px;
+}
+.highlight {
+  background-color: yellow;
+}
+
+.elenco {
+  margin-top: 20px;
+  padding-left: 1em;
+}
+
+/* inizio tabella */
+
+table {
+  margin-top: 20px;
+  border-spacing: 0;
+}
+
+table th {
+  text-align: left;
+}
+
+table .text {
+  width: 50%;
+}
+
+table thead {
+  background-color: rgb(8, 114, 185);
+}
+
+table .odd {
+  background-color: lightblue;
+}
+
+/* fine tabella */
+
+/* fine main */
+
+/* inizio footer */
+
+footer {
+  margin-top: 30px;
+}
+
+footer h3 {
+  color: grey;
+}
+.background-img {
+  margin-top: 10px;
+  color: white;
+  width: 300px;
+  height: 200px;
+  font-size: 20px;
+  background-size: cover;
+}
+
+#graph {
+  background-image: url("../img/graph.jpg");
+}
+
+#monitor {
+  background-image: url("../img/monitor.jpg");
+}

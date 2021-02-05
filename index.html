@@ -1,12 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Static Template</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>This is a static template, there is no bundler or bundling involved!</h1>
+    <!-- inizio header -->
+    <header>
+      <div class="container">
+        <img class="logo" src="img/logo.svg" alt="logo" />
+      </div>
+    </header>
+    <!-- fine header -->
+
+    <!-- inizio main -->
+    <main>
+      <div class="container">
+        <!-- inizio heading articolo -->
+        <div class="heading-articolo">
+          <h1>
+            Internet deve essere al servizio dei Meme: il manifesto di Tim
+            Berners-Lee
+          </h1>
+
+          <div class="author">Scritto da <span> The Booleaner </span></div>
+          <div class="date">il 05/02/2021</div>
+        </div>
+        <!-- fine heading articolo -->
+
+        <!-- immagini -->
+        <div class="immagini">
+          <img src="img/tim-1.jpg" alt="tim1" />
+          <img src="img/tim-2.jpg" alt="tim2" />
+
+          <p>
+            1st Photo: Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Neque minima, harum voluptatem reprehenderit numquam praesentium aut
+            perspiciatis asperiores <br />
+            2nd photo: blablabla
+          </p>
+        </div>
+        <!-- fine immagini -->
+
+        <!-- inizio corpo articlo -->
+        <div class="corpo-articolo">
+          <p>
+            Lorem ipsum dolor sit amet,
+            <span class="highlight">
+              adipisicing elit. Dolor dicta rem quasi adipisci totam?
+            </span>
+            Maiores inventore eos eius sed quis consequatur quidem ullam. Error
+            eveniet animi inventore. Hic, similique enim! Lorem ipsum dolor, sit
+            amet consectetur adipisicing elit. Nobis voluptas consequuntur nam,
+            obcaecati hic ad cumque error, pariatur quos blanditiis eveniet
+            aliquam soluta modi labore laborum maxime! Magnam, quasi animi.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsum,
+            exercitationem a atque reiciendis obcaecati nostrum debitis tenetur
+            quidem veniam fugit, explicabo possimus ratione corporis pariatur
+            iure, iste iusto velit?
+          </p>
+
+          <ul class="elenco">
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+              commodi corporis ut a similique unde iste, vero laborum possimus
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+              commodi corporis ut a similique unde iste, vero laborum possimus
+            </li>
+          </ul>
+
+          <!-- inizio tabella -->
+          <table>
+            <thead>
+              <tr>
+                <th>Lorem ipsum dolor</th>
+                <th>Lorem ipsum dolor</th>
+                <th class="text">Lorem ipsum dolor</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr class="odd">
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor</td>
+                <td>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                  ea nemo recusandae culpa facere reiciendis aliquid ad minus
+                  numquam harum rerum eveniet unde officia a sunt doloremque,
+                  cumque nostrum tempore.
+                </td>
+              </tr>
+
+              <tr>
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor</td>
+                <td>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                  ea nemo recusandae culpa facere reiciendis aliquid ad minus
+                  numquam harum rerum eveniet unde officia a sunt doloremque,
+                  cumque nostrum tempore.
+                </td>
+              </tr>
+
+              <tr class="odd">
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor</td>
+                <td>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                  ea nemo recusandae culpa facere reiciendis aliquid ad minus
+                  numquam harum rerum eveniet unde officia a sunt doloremque,
+                  cumque nostrum tempore.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- fine tabella -->
+        </div>
+        <!-- fine corpo articolo -->
+      </div>
+    </main>
+    <!-- fine main -->
+
+    <!-- footer -->
+    <footer class="container">
+      <h3>Potrebbe interessarti</h3>
+
+      <div id="monitor" class="background-img">
+        lorem ipsum dolor
+      </div>
+
+      <div id="graph" class="background-img">
+        lorem ipsum dolor
+      </div>
+    </footer>
+    <!-- fine footer -->
   </body>
 </html>
